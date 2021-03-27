@@ -12,5 +12,5 @@ app.get('/:language', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`B server is running on http://localhost:${port}`)
+  console.log(`C server is running on http://localhost:${port}`)
 })
