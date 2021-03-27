@@ -12,5 +12,5 @@ app.get('/:language', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`my server is running on http://localhost:${port}`)
+  console.log(`A server is running on http://localhost:${port}`)
 })
